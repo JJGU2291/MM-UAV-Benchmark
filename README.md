@@ -2,9 +2,163 @@
 
 ------
 
-##### The first large-scale multi-modal benchmark dataset for anti-UAV applications. This dataset contains 1,301 sequences (1,200 for training, 121 for testing), covering three modalities (RGB + Infrared + Event Data). Each modality includes approximately 2.8 million image frames.**🔗 [Benchmark page](https://xuefeng-zhu5.github.io/MM-UAV/).**
+#### The first large-scale multi-modal benchmark dataset for anti-UAV applications. This dataset contains 1,301 sequences (1,200 for training, 121 for testing), covering three modalities (RGB + Infrared + Event Data). Each modality includes approximately 2.8 million image frames.**🔗 [Benchmark page](https://xuefeng-zhu5.github.io/MM-UAV/).**
 
-<p align="center"><img src="assets/Dataset-example.png"/></p>
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="width: 10%; text-align: center; font-weight: bold;">Sequence</td>
+    <td style="width: 30%; text-align: center; font-weight: bold;">RGB</td>
+    <td style="width: 30%; text-align: center; font-weight: bold;">IR</td>
+    <td style="width: 30%; text-align: center; font-weight: bold;">Event</td>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: middle; font-weight: bold;">0003</td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0003/rgb_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0003/ir_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0003/event_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: middle; font-weight: bold;">0025</td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0025/rgb_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0025/ir_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0025/event_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: middle; font-weight: bold;">0269</td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0269/rgb_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0269/ir_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0269/event_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: middle; font-weight: bold;">0322</td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0322/rgb_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0322/ir_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0322/event_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: middle; font-weight: bold;">0326</td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0326/rgb_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0326/ir_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0326/event_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: middle; font-weight: bold;">0339</td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0339/rgb_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0339/ir_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/0339/event_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: middle; font-weight: bold;">1082</td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/1082/rgb_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/1082/ir_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/1082/event_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: middle; font-weight: bold;">1863</td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/1863/rgb_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/1863/ir_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td style="text-align: center;">
+      <video width="100%" controls autoplay loop muted playsinline>
+        <source src="assets/1863/event_track_result.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+</table>
+
+
+[//]: # (<p align="center"><img src="assets/Dataset-example.png"/></p>)
 
 <p align="center"><img src="assets/challenges.jpeg"/></p>
 
@@ -51,13 +205,13 @@ MM-UAV/
 │       └── seqinfo-ir.ini
 ```
 
-This dataset follows the MOT (multi-object tracking) format and is primarily designed for multi-modal multi-object tracking tasks. Additionally, we provide single-object ground truth under `sot_groundtruth/` to ensure compatibility with single object tracking methods.
+#### This dataset follows the MOT (multi-object tracking) format and is primarily designed for multi-modal multi-object tracking tasks. Additionally, we provide single-object ground truth under `sot_groundtruth/` to ensure compatibility with single object tracking methods.
 
 ---
 
 # **MMA-SORT**  
 
-##### MMA-SORT serves as the baseline method for the MM-UAV dataset. It incorporates an additional alignment and fusion module into the YOLOX detector to achieve cross-modal spatial alignment and fusion. For tracking, it leverages the Event modality to enable more accurate identity association.
+#### MMA-SORT serves as the baseline method for the MM-UAV dataset. It incorporates an additional alignment and fusion module into the YOLOX detector to achieve cross-modal spatial alignment and fusion. For tracking, it leverages the Event modality to enable more accurate identity association.
 
 <p align="center"><img src="assets/Framework.png"/></p>
 
