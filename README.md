@@ -2,7 +2,13 @@
 
 ------
 
-#### The first large-scale multi-modal benchmark dataset for anti-UAV applications. This dataset contains 1,301 sequences (1,200 for training, 121 for testing), covering three modalities (RGB + Infrared + Event Data). Each modality includes approximately 2.8 million image frames.**🔗 [Benchmark page](https://xuefeng-zhu5.github.io/MM-UAV/).**
+## A Tri-Modal Dataset and a Baseline System for Tracking Unmanned Aerial Vehicles
+
+------
+
+### **MM-UAV** is the first large-scale tri-modal benchmark dataset for anti-UAV applications. This dataset contains 1,301 sequences (1,200 for training, 121 for testing), covering three modalities (RGB + Infrared + Event Data). Each modality includes approximately 2.8 million image frames.**🔗 [Benchmark page](https://xuefeng-zhu5.github.io/MM-UAV/).**
+
+
 
 <div class="table-container">
   <table class="equal-height-table">
@@ -159,7 +165,7 @@
 </table>
 </div>
 
-[//]: # (<p align="center"><img src="assets/Dataset-example.png"/></p>)
+[//]: # "<p align="center"><img src="assets/Dataset-example.png"/></p>"
 
 <p align="center"><img src="assets/challenges.jpeg"/></p>
 
