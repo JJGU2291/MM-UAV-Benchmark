@@ -165,7 +165,13 @@
 </table>
 </div>
 
-[//]: # "<p align="center"><img src="assets/Dataset-example.png"/></p>"
+------
+
+### Dataset example
+
+<p align="center"><img src="assets/Dataset-example.png"/></p>
+
+### chalenges
 
 <p align="center"><img src="assets/challenges.jpeg"/></p>
 
