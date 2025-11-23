@@ -4,159 +4,192 @@
 
 #### The first large-scale multi-modal benchmark dataset for anti-UAV applications. This dataset contains 1,301 sequences (1,200 for training, 121 for testing), covering three modalities (RGB + Infrared + Event Data). Each modality includes approximately 2.8 million image frames.**🔗 [Benchmark page](https://xuefeng-zhu5.github.io/MM-UAV/).**
 
-<table style="width: 100%; border-collapse: collapse;">
+<style>
+.table-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.equal-height-table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.equal-height-table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 2px; 
+}
+.equal-height-img-container {
+  height: 200px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0 2px; 
+}
+.equal-height-img-container img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain; 
+}
+</style>
+<div class="table-container">
+  <table class="equal-height-table">
   <tr>
-    <td style="width: 10%; text-align: center; font-weight: bold;">Sequence</td>
-    <td style="width: 30%; text-align: center; font-weight: bold;">RGB</td>
-    <td style="width: 30%; text-align: center; font-weight: bold;">IR</td>
-    <td style="width: 30%; text-align: center; font-weight: bold;">Event</td>
+    <td style="font-weight: bold;">RGB</td>
+    <td style="font-weight: bold;">IR</td>
+    <td style="font-weight: bold;">Event</td>
   </tr>
-  <tr>
-    <td style="text-align: center; vertical-align: middle; font-weight: bold;">0003</td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0003/rgb_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0003/ir_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0003/event_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-  </tr>
-  <tr>
-    <td style="text-align: center; vertical-align: middle; font-weight: bold;">0025</td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0025/rgb_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0025/ir_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0025/event_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-  </tr>
-  <tr>
-    <td style="text-align: center; vertical-align: middle; font-weight: bold;">0269</td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0269/rgb_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0269/ir_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0269/event_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-  </tr>
-  <tr>
-    <td style="text-align: center; vertical-align: middle; font-weight: bold;">0322</td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0322/rgb_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0322/ir_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0322/event_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-  </tr>
-  <tr>
-    <td style="text-align: center; vertical-align: middle; font-weight: bold;">0326</td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0326/rgb_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0326/ir_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0326/event_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-  </tr>
-  <tr>
-    <td style="text-align: center; vertical-align: middle; font-weight: bold;">0339</td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0339/rgb_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0339/ir_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/0339/event_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-  </tr>
-  <tr>
-    <td style="text-align: center; vertical-align: middle; font-weight: bold;">1082</td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/1082/rgb_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/1082/ir_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/1082/event_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-  </tr>
-  <tr>
-    <td style="text-align: center; vertical-align: middle; font-weight: bold;">1863</td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/1863/rgb_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/1863/ir_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td style="text-align: center;">
-      <video width="100%" controls autoplay loop muted playsinline>
-        <source src="assets/1863/event_track_result.mp4" type="video/mp4">
-      </video>
-    </td>
-  </tr>
-</table>
 
+  <tr>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0326/rgb_track_result.gif" alt="RGB Tracking Result 0326">
+      </div>
+    </td>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0326/ir_track_result.gif" alt="IR Tracking Result 0326">
+      </div>
+    </td>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0326/event_track_result.gif" alt="Event Frames 0326">
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/1863/rgb_track_result.gif" alt="RGB Tracking Result 1863">
+      </div>
+    </td>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/1863/ir_track_result.gif" alt="IR Tracking Result 1863">
+      </div>
+    </td>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/1863/event_track_result.gif" alt="Event Frames 1863">
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0269/rgb_track_result.gif" alt="RGB Tracking Result 0269">
+      </div>
+    </td>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0269/ir_track_result.gif" alt="IR Tracking Result 0269">
+      </div>
+    </td>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0269/event_track_result.gif" alt="Event Frames 0269">
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0322/rgb_track_result.gif" alt="RGB Tracking Result 0322">
+      </div>
+    </td>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0322/ir_track_result.gif" alt="IR Tracking Result 0322">
+      </div>
+    </td>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0322/event_track_result.gif" alt="Event Frames 0322">
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0339/rgb_track_result.gif" alt="RGB Tracking Result 0339">
+      </div>
+    </td>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0339/ir_track_result.gif" alt="IR Tracking Result 0339">
+      </div>
+    </td>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0339/event_track_result.gif" alt="Event Frames 0339">
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/1082/rgb_track_result.gif" alt="RGB Tracking Result 1082">
+      </div>
+    </td>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/1082/ir_track_result.gif" alt="IR Tracking Result 1082">
+      </div>
+    </td>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/1082/event_track_result.gif" alt="Event Frames 1082">
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0003/rgb_track_result.gif" alt="RGB Tracking Result 0003">
+      </div>
+    </td>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0003/ir_track_result.gif" alt="IR Tracking Result 0003">
+      </div>
+    </td>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0003/event_track_result.gif" alt="Event Frames 0003">
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0025/rgb_track_result.gif" alt="RGB Tracking Result 0025">
+      </div>
+    </td>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0025/ir_track_result.gif" alt="IR Tracking Result 0025">
+      </div>
+    </td>
+    <td>
+      <div class="equal-height-img-container">
+        <img src="assets/0025/event_track_result.gif" alt="Event Frames 0025">
+      </div>
+    </td>
+  </tr>
+
+</table>
+</div>
 
 [//]: # (<p align="center"><img src="assets/Dataset-example.png"/></p>)
 
