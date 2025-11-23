@@ -4,44 +4,12 @@
 
 #### The first large-scale multi-modal benchmark dataset for anti-UAV applications. This dataset contains 1,301 sequences (1,200 for training, 121 for testing), covering three modalities (RGB + Infrared + Event Data). Each modality includes approximately 2.8 million image frames.**🔗 [Benchmark page](https://xuefeng-zhu5.github.io/MM-UAV/).**
 
-<style>
-.table-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin: 0 auto;
-}
-.equal-height-table {
-  border-collapse: collapse;
-  margin: 0 auto;
-}
-.equal-height-table td {
-  text-align: center;
-  vertical-align: middle;
-  padding: 2px; 
-}
-.equal-height-img-container {
-  height: 200px; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  margin: 0 2px; 
-}
-.equal-height-img-container img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain; 
-}
-</style>
 <div class="table-container">
   <table class="equal-height-table">
   <tr>
-    <td style="font-weight: bold;">RGB</td>
-    <td style="font-weight: bold;">IR</td>
-    <td style="font-weight: bold;">Event</td>
+    <td style="font-weight: bold; width: 37%;">RGB</td>
+    <td style="font-weight: bold; width: 33%;">IR</td>
+    <td style="font-weight: bold; width: 30%;">Event</td>
   </tr>
 
   <tr>
