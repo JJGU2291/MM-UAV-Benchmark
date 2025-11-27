@@ -175,8 +175,9 @@
 
 <p align="center"><img src="assets/challenges.jpeg"/></p>
 
-#### 🔗 **Download Link**: [coming soon](https://pan.baidu.com)  
-
+#### 🔗 **Download Link**: 
+  1. [Baidu Disk](https://pan.baidu.com/s/1xYzvams9X972rGBm-RgY_g?pwd=mmmm )  
+  2. Google Drive (will be released soon)
 #### 📦 **Extracted Size**: ~400 GB  
 
 #### **🔗Raw results and evaluation tool** is in [MM-UAV-Evaluation-ToolKit](https://github.com/JJGU2291/MM-UAV-Evaluation-ToolKit/tree/main).
@@ -272,7 +273,10 @@ pip3 install faiss-gpu
 
 **Step 1.** Download the MM-UAV dataset.
 
-🔗 **Download Link**: [coming soon](https://pan.baidu.com)  
+🔗 **Download Link**: 
+  1. [Baidu Disk](https://pan.baidu.com/s/1xYzvams9X972rGBm-RgY_g?pwd=mmmm )  
+  2. Google Drive (will be released soon)
+
 📦 **Extracted Size**: ~400 GB  
 
 **Step 2.** Convert the MOT dataset to COCO format.
@@ -340,11 +344,14 @@ After inference, the tracking results (`track_results_rgb/` and `track_results_i
 ## Citation
 
 ```bibtex
-@article{,
-  title={},
-  author={},
-  journal={},
-  year={2025}
+@misc{xu2025trimodaldatasetbaselinetracking,
+      title={A Tri-Modal Dataset and a Baseline System for Tracking Unmanned Aerial Vehicles}, 
+      author={Tianyang Xu and Jinjie Gu and Xuefeng Zhu and XiaoJun Wu and Josef Kittler},
+      year={2025},
+      eprint={2511.18344},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.18344}, 
 }
 ```
 
