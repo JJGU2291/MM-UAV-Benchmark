@@ -3,6 +3,7 @@
 ------
 
 ## A Tri-Modal Dataset and a Baseline System for Tracking Unmanned Aerial Vehicles
+🔗[paper](https://arxiv.org/abs/2511.18344v1)
 
 ------
 
